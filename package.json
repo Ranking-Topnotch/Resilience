@@ -1,0 +1,27 @@
+{
+  "name": "resilience",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node init && nodemon --watch src --ext ts --exec tsx src/app.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.7.1",
+    "ulid": "^3.0.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.0.0",
+    "nodemon": "^3.1.14",
+    "tsx": "^4.22.4",
+    "typescript": "^6.0.3"
+  }
+}
